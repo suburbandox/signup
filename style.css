@@ -1,16 +1,29 @@
 .col{
     border: 1px solid red;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
 }
 body{
     font-size: 16px;
     background-image: url("images/bg-intro-desktop.png");
-
+}
+.form-floating{
+    width: 70%;
+}
+.row{
+    padding: 20px 30px;
+    height: 100vh;
 }
 #s{
     color: white;
     text-align: center;
     justify-content: center;
     align-items: center;
+    font-weight: 600;
+    margin-bottom: 10px;
 }
 #purp{
     background-color:hsl(248, 32%, 49%);
@@ -18,11 +31,36 @@ body{
     text-align: center;
     padding: 5px 0;
     border-radius:  10px;
-
+    box-shadow: 0 5px 0 0 black ;
+    margin: 10px 0;
 }
 #bod{
     background-color:  hsl(0, 100%, 74%);
     opacity: 50%;
+}
+.btn{
+    width: 70%;
+    background-color:  hsl(154, 59%, 51%);
+    border-radius:  10px;
+    box-shadow: 0 5px 0 0 darkgreen ;
+}
+span{
+    color: black;
+}
+.see{
+    width: 70%;
+}
+.foot{
+    margin: 5px 0;
+    color: white;
+    text-decoration: none;
+    font-weight: 200;
+    text-decoration-color: white;
+
+}
+a{
+    color: white;
+    text-decoration: none;
 }
 p{color: white}
 @media (max-width: 375px) {
