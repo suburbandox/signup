@@ -76,7 +76,7 @@ a{
     text-decoration: none;
 }
 p{color: white}
-@media (max-width: 375px) {
+@media (max-width: 576px) {
     row{
         flex-direction: column;
     }
@@ -86,4 +86,8 @@ p{color: white}
     #bod{
         height: 1000px;
     }
+}
+@media screen and (min-width: 576px){
+
+
 }
